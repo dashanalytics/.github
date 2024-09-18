@@ -1,14 +1,17 @@
-## Fastly deploy analytics service
+# Introduction
+**Quickly deploy your analytics service on your machine. Just build and run!**
 
-### Self-hostable
+The original intention of doing this was that I couldn't find any analysis server software that could run on `riscv64` target.
+So I wrote `analytics-server` in Go that only depends on the standard library and Redis.
 
-Build and run.
+## Self-host
+
 Working with [Redis](https://redis.io/learn/howtos/quick-start).
 Simple and flexable.
 
 NOTE: Source IP and country recording is not available without support from cloud service provider.
 
-### Behind your reverse proxy provider.
+## Behind your reverse proxy provider.
 
 **Dashanalytics** also provided for hosts behind a reverse proxy.
 Get specific client information from specific HTTP headers.
