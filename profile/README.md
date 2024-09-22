@@ -1,3 +1,4 @@
+![](https://dashanalytics.pages.dev/assets/dashanalytics-D05VPhbo.svg)
 # Introduction
 **Quickly deploy your analytics service on your machine. Just build and run!**
 
